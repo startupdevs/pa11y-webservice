@@ -100,6 +100,10 @@ The boot configurations for Pa11y Webservice are as follows. Look at the sample 
 
 *(string)* The mongodb [connection string][mongo-connection-string] for your database. Set via a config file or the `DATABASE` environment variable.
 
+### runner
+
+*(string)* The pa11y test runner to run tests against. See the [`pa11y documentation`](https://github.com/pa11y/pa11y#runners) for more information.
+
 ### host
 
 *(string)* The host to run the application on. This is normally best left as `"0.0.0.0"` – which means the application will run on any incoming connections. Set via a config file or the `HOST` environment variable.

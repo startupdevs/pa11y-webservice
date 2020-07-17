@@ -193,7 +193,7 @@ module.exports = function(app, callback) {
 						actions: task.actions || [],
 						chromeLaunchConfig: app.config.chromeLaunchConfig || {},
 						headers: task.headers || {},
-						runners: app.config.runners || ['htmlcs'],
+						runners: [app.config.runner] || ['htmlcs'],
 						log: {
 							debug: model.pa11yLog(task.id),
 							error: model.pa11yLog(task.id),

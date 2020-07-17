@@ -102,7 +102,7 @@ The boot configurations for Pa11y Webservice are as follows. Look at the sample 
 
 ### runner
 
-*(string)* The pa11y test runner to run tests against. See the [`pa11y documentation`](https://github.com/pa11y/pa11y#runners) for more information.
+*(string)* The pa11y test runner to run tests against. See the [`pa11y documentation`](https://github.com/pa11y/pa11y#runners) for more information. Note that this will only allow a single runner to be selected. Set via a config file or the `RUNNER` environment variable.
 
 ### host
 
